@@ -859,20 +859,25 @@ schedule
 #schedule table {
   width: 100%;
   text-align: center;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
+  color: #ed563b;
+    
 }
 
 #schedule table tbody {
-  border-top: 2px solid #fff; 
+  border-top: 1px solid #fff; 
+ 
 }
 
+
 #schedule table tbody tr {
-  border-bottom: 2px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 
 #schedule table tbody tr td {
-  border-right: 2px solid #fff;
-  height: 100px;
+  border-right: 1px solid #fff;
+  height: 100%;
+  
 }
 
 #schedule table tr td {
@@ -894,7 +899,7 @@ schedule
 }
 
 #schedule .filters {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 #schedule .filters ul {
   padding: 0;
