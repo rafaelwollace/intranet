@@ -322,12 +322,13 @@ header
   transition: all .3s;
   height: auto;
   line-height: 20px;
-  border: hidden;
+  
 }
 
 .header-area .main-nav .nav li:last-child a:hover {
   background-color: #6fa8dc;
   opacity: 1;
+  border: ;
 }
 
 .header-area .main-nav .nav li:hover a,
