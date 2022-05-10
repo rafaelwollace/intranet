@@ -313,8 +313,8 @@ header
   display: inline-block;
   font-size: 13px;
   padding: 11px 17px;
-  background-color: #3d85c6;
-  color: #fff;
+  background-color: 0b5394;
+  color: #fff !important;
   text-align: center;
   font-weight: 400;
   letter-spacing: 0px;
@@ -322,16 +322,18 @@ header
   transition: all .3s;
   height: auto;
   line-height: 20px;
+  
 }
 
 .header-area .main-nav .nav li:last-child a:hover {
   background-color: #6fa8dc;
   opacity: 1;
+  border: ;
 }
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #6fa8dc !important;
+  color: #fff !important;
   opacity: 1;
 }
 
