@@ -1030,16 +1030,17 @@ contact
 }
 
 #contact-us .contact-form {
-  padding: 80px;
-  background-image: url(../images/contact-bg.jpg);
+  padding: 1px;
+  background-image: url(../images/schedule-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 450px;
 }
 
 #contact-us .contact-form #contact {
   background-color: #fff;
-  padding: 40px;
+  padding: 50%;
   border-radius: 5px;
 }
 
@@ -1060,6 +1061,38 @@ contact
   margin-bottom: 30px;
 }
 
+.contact-form .image-thumb img {
+  padding: 10px 10px 15px 0px;
+  height: 300px;
+  width: auto;
+}
+
+.contact-form .image-thumb h3 {
+  color: #ddd;
+  font-size: 25px;
+  padding: 10px 10px 15px 18px;
+  }
+
+.contact-form div {
+
+}
+
+.contact-form .down-content span {
+  color: #ed563b;
+}
+
+.contact-form .down-content h4 {
+  color: #ddd;
+ 
+}
+
+.contact-form .down-content p {
+  color: #ed563b;
+  text-align: capitalize; 
+  font-size: 15px;
+}
+
+
 .contact-form textarea {
   height: 150px;
   resize: none;
@@ -1077,20 +1110,6 @@ contact
   color: #7a7a7a;
 }
 
-.contact-form button {
-  display: inline-block;
-  font-size: 13px;
-  padding: 11px 17px;
-  background-color: #0b5394;
-  color: #fff;
-  text-align: center;
-  font-weight: 400;
-  text-transform: uppercase;
-  transition: all .3s;
-  border: none;
-  outline: none;
-  margin-top: -8px;
-}
 
 .contact-form button:hover {
   background-color: #0b5394;
