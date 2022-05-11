@@ -965,11 +965,11 @@ Parceiros
 
 #parceiros .trainer-item {
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: 20px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   padding: 10px 0px 0px 0px ;
   margin: 5px;
-  box-sizing:initial;
+   
 }
 
 #parceiros .trainer-item img {
@@ -979,7 +979,7 @@ Parceiros
   left: 100px ;
 }
 
-#parceiros .trainer-item span {
+#parceiros .trainer-item p {
   font-size: 13px;
   font-weight: 500;
   color: #0b5394;
@@ -996,19 +996,6 @@ Parceiros
   color: #232d39;
   letter-spacing: 0.5px;
   margin-bottom: 1px;
-}
-
-#parceiros .trainer-item p {
-  margin-bottom: 20px;
-}
-
-#parceiros .trainer-item ul.social-icons li {
-  display: block;
-  margin-right: 12px;
-}
-
-#parceiros .trainer-item ul.social-icons li:last-child {
-  margin-right: 0px;
 }
 
 #parceiros .trainer-item ul.social-icons li a {
